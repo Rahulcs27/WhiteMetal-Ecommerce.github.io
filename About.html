@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About Us - WHITE METAL CART</title>
+    <link rel="shortcut icon" href="images/mainlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+            <div class="logo">
+              <a href="index.html"><img src="images/mainlogoblack.png" width="100px"></a>
+                
+            </div>
+            <nav>
+              <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li     >      
+             </ul>
+            </nav> 
+            <img src="images/cart.png" width="30px" height="30px"> 
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> 
+         </div>   
+         <div class="row">
+            <div class="col-2">
+                <h1>About Us</h1>
+                <p>White Metal Kart is the market of White Metal Utensils, Designer Wall Hangings, Designer Flower Vases, Mementos and Brass Sculptures.<br> Our products are a beautiful fusion of traditional concepts and contemporary styles.
+                    Available all kinds of puja items,decoration items, gift items in white metal with affordable prices</p>
+                <address><a href="mailto:rahulsuthar681@gmail.com" class="btn">Contact Us &#8594;</a></address>
+            </div>
+            <div class="col-2">
+              <img src="images/mainlogoblack.png" alt="img1">
+            </div>
+        </div>   
+    </div> 
+ </div>
+      
+
+        
+        
+        
+        
+        <!-----Footer-->
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="footer-col-1">
+                <img src="images/mainlogo.png">
+              </div>
+              <div class="footer-col-2">
+                <p>Our Purpose is to Sell Best Products to Our Family i.e Our Customer.</p>
+              </div>
+              <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul class="link">
+                  <li><a href="">Return Policy</a></li>
+                  <li><a href="">File a Complain</a></li>
+                  <li><a href="">Join Our Team</a></li>
+                  <li><a href="">Return a Product</a></li>
+                </ul>
+              </div>
+              <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul class="link">
+                  <li><a href="https://www.instagram.com/rahul27_04/">Facebook</a></li>
+                  <li><a href="https://www.instagram.com/rahul27_04/">Instagram</a></li>
+                  <li><a href="https://www.instagram.com/rahul27_04/">Gmail</a></li>
+                  <li><a href="https://www.instagram.com/rahul27_04/">Whatsapp</a></li>
+                </ul>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+MenuItems.style.maxHeight = "0px";
+
+function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px"){
+        MenuItems.style.maxHeight = "200px"
+    }
+    else{
+        MenuItems.style.maxHeight = "0px";
+    }
+}
+        </script>
+      
+    
+</body>
+</html>
